@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZAZ Asesorias</title>
+    <link rel='stylesheet' href='css/styles.css'>
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="enlace-header">  
+        <div class="logo-header-div">
+          <div class="icono-header-div"><img src="imagenes/icono-header.png" alt="Icono" class="icono-header"></div>
+          <div class="texto-header-div"><h1 class="texto-header">Asesorias</h1></div>
+        </div> 
+      </a>
+      <nav>
+        <ul>
+          <li><a href="#asesoria-pensional">Asesoría Pensional</a></li>
+          <li><a href="#imagen-corporativa">Imagen Corporativa</a></li>
+          <li><a href="#rh">Gestión RH</a></li>
+          <li><a href="#ley">Trámites Legales</a></li>
+          <li><a href="#formulario">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div>
+        <div> 
+          <table>
+            <tr>
+              <td> 
+                <h2 class="texto" id="texto-portada">ESTAMOS AQUI<br>PARA BRINDAR<br>SOLUCIONES OPORTUNAS<br>A TUS REQUERIMIENTOS</h2><button class="boton" onclick="location.href='#formulario'">CONTACTO</button>
+              </td>
+              <td>
+                <img src="imagenes/portada.jpg" alt="portada" id="imagen-portada">
+              </td>
+            </tr>
+          </table>
+      </div>
+      <div id="portafolio-de-servicios">
+        <img src="imagenes/flecha-izquierda.png" alt="flecha" class="flechas"><h2 class="texto">PORTAFOLIO DE SERVICIOS:</h2><img src="imagenes/flecha-derecha.png" alt="flecha" class="flechas">
+      </div>
+      <div id="servicios-div">
+          <table> 
+            <tr>
+              <td id="asesoria-pensional">
+                <h2 class="texto hover">Asesoría Pensional</h2>
+                <ul class="lista-servicios">
+                  <li class="texto hover">Sustitución pensional</li><br>
+                  <li class="texto hover">Indemnizaciones sustitutivas</li><br>
+                  <li class="texto hover">Designación de pensión en vida</li><br>
+                  <li class="texto hover">Reclamación de pago único mesada a herederos</li><br>
+                </ul>
+              </td>
+              <td>
+                <img src="imagenes/hucha.png" alt="hucha" id="hucha">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="imagenes/imagen-corporativa.png" alt="diseño" id="imagen-corporativa-img">
+              </td>
+              <td id="imagen-corporativa">
+                <h2 class="texto hover">Imagen Corporativa</h2>
+                <ul class="lista-servicios">
+                  <li class="texto hover">Comunicación Visual</li><br>
+                  <li class="texto hover">Construcción de Marca</li><br>
+                  <li class="texto hover">Logotipo</li><br>
+                  <li class="texto hover">Diseño Gráfico y Publicitario</li><br>
+                  <li class="texto hover">Creación de página Web</li><br>
+                  <li class="texto hover">Diseño Web</li><br>
+                  <li class="texto hover">Administración Web</li><br>
+                  <li class="texto hover">Social Media</li><br>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td id="rh">
+                <h2 class="texto hover">Gestión de Recursos Humanos</h2>
+                <ul class="lista-servicios">
+                  <li class="texto hover">Reclutamiento, selección, suministro de personal</li><br>
+                  <li class="texto hover">Ingresos, retiros y novedades</mark></li><br>
+                  <li class="texto hover">Afiliaciones al SGSS</li><br>
+                  <li class="texto hover">Implementación del SGSST</li><br>
+                </ul>
+              </td>
+              <td>
+                <img src="imagenes/rh.png" alt="rh" id="rh-img">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="imagenes/ley.png" alt="ley" id="ley-img">
+              </td>
+              <td id="ley">
+                <h2 class="texto hover">Trámites Legales</h2>
+                <ul class="lista-servicios">
+                  <li class="texto hover">Derechos de petición</li><br>
+                  <li class="texto hover">Elaboración de oficios</li><br>
+                  <li class="texto hover">Mensajería</li><br>
+                </ul>
+              </td>
+             
+            </tr>
+          </table>
+      </div>
+      <div>
+        <fieldset id="formulario">
+          <legend id="formulario-titulo">Te Contactamos:</legend>
+        <form>
+          <input type="text" id="campos" name="nombre" placeholder="Nombre" required><br><br>
+          <input type="text" id="campos" name="apellidos" placeholder="Apellidos" required><br><br>
+          <input type="email" id="campos" name="email" placeholder="Correo Electronico" required><br><br>
+          <input type="tel" id="campos" name="telefono" placeholder="Numero de Teléfono" required><br><br>
+          <select id="genero" name="genero" required>
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+            <option value="otro">Otro</option>
+          </select>
+          <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required><br><br>        
+          <textarea id="mas-info" name="mas-info" rows="5" cols="40" placeholder="Escribe tu motivo de contacto y pronto te asesoraremos." required></textarea><br><br>          
+          <button type="submit" class="boton">ENVIAR</button>
+        </form>
+      </fieldset>
+      </div> 
+    </main>
+    <footer>
+      <div>
+        <ul>
+          <li><a href="tel:+34 631 217101">ESPAÑA<img src="imagenes/whatsapp-bussines.png" alt="whatsapp-bussines" class="whatsapp-business"></a></li>
+          <li><a href="tel:+573003435724">COLOMBIA<img src="imagenes/whatsapp-bussines.png" alt="whatsapp-bussines" class="whatsapp-business"></a></li>        
+        </ul>
+        <ul>
+          <li><a href="mailto:Hola@zazasesorias.com">Hola@zazasesorias.com</a></li>
+          <li><a href="www.zazasesorias.com">www.zazasesorias.com</a></li>
+        </ul>  
+    </div>
+    </footer>      
+  </body>
+</html>
+
