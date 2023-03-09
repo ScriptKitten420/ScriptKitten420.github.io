@@ -74,8 +74,20 @@ nav a:hover {
     flex-direction: column;
     max-height: fit-content;
   }
-  .imagen-general-div {
+  #portada-img-div {
     max-width: 60vh;
+  }
+  #hucha-img-div {
+    max-width: 60vh;
+  }
+  #imagen-corporativa-img-div {
+    max-width: 75vh;
+  }
+  #rh-img-div {
+    max-width: 65vh;
+  }
+  #ley-img-div {
+    max-width: 75vh;
   }
 }
 
@@ -190,8 +202,6 @@ footer {
   text-align: center;
   background-color: #ffd230;
   height: fit-content;
-  min-height: 50px;
-  width: 100%;
 }
 footer ul {
   list-style: none;
