@@ -196,7 +196,8 @@ footer {
   text-align: center;
   background-color: #ffd230;
   height: fit-content;
-  width: fit-content;
+  width: 100%;
+  min-width: fit-content;
 }
 footer ul {
   list-style: none;
